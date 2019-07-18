@@ -1,0 +1,69 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <section class="main-card">
+    <div class="card-container">
+      <mat-card class="mat-elevation-z5">
+        <mat-card-title>Upload Video</mat-card-title>
+        <mat-card-content>
+          <div class="video-container" [hidden]="isVideoSelected">
+            <vg-player>
+              <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls autoplay>
+                <source type="video/mp4">
+              </video>
+            </vg-player>
+          </div>
+        </mat-card-content>
+        <mat-card-actions align="start">
+          <div class="file-button" style="text-align: left">
+            <form [formGroup]="uploadForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+              <div>
+                <input type="file" name="profile" (change)="onFileSelect($event)" />
+              </div>
+              <div>
+                <button mat-raised-button type="submit">
+                  <img class="img-icon" src="assets/upload-black.png" alt="" srcset=""> Upload</button>
+              </div>
+              <div class="spinner" [hidden]="spinnerStatus">
+                <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+              </div>
+            </form>
+          </div>
+          {{fileStatus}}
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </section>
+  <div class="right-bar">
+    <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z5" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Previous Videos
+          </mat-panel-title>
+          <mat-panel-description>
+
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="video-list-container" *ngIf="videos.length">
+          <!-- list -->
+          <mat-card class="status-card" *ngFor=" let video of videos" [ngStyle]="{'background-image': (video.status == 'completed')? 'linear-gradient(to right, #a8ff78, #78ffd6)' : (video.status == 'pending')? 'linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%)' :
+            'linear-gradient(315deg, #fffcf9 0%, #ffd166 74%)'}">
+            <mat-card-content>
+              <div class="card-contents">
+                <p><b>Name</b> : {{video.video_name}} </p>
+                <p><b>Status</b>: {{video.status | uppercase}}</p>
+              </div>
+            </mat-card-content>
+            <mat-card-actions align="end">
+              <button mat-button (click)="playVideoByURL(video.video_url)">View</button>
+              <button mat-raised-button class="prev-video-button" (click)="goToAnalysis(video._id.$oid,video.video_url)"
+                [disabled]="!(video.status == 'completed')">
+                Analyze
+              </button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>
