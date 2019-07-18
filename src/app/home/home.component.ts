@@ -33,13 +33,9 @@ export class HomeComponent implements OnInit {
     this.httpHandler.getUserVideos(this.userID)
     .subscribe(resp =>{this.videos = resp; console.log(resp);
     } );
-
-    console.log('Contructor: Home comp ');
   }
 
   ngOnInit() {
-    console.log('Init : Home comp ');
-    
     this.uploadForm = this.formBuilder.group({
       profile: ['']
     });  
