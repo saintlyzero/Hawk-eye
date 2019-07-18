@@ -1,0 +1,24 @@
+.navbar-container{
+    background-color: #212121;
+    color: whitesmoke;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    cursor: pointer;
+    color: #FFCB05;
+}
+.btn-logout{
+    font-size: 19px;
+    color: #FFCB05;
+}
+.btn-logout:hover{
+    background-color: #FFCB05;
+    color: #212121;
+    font-size: 19px;
+}
+.spacer{
+    flex: 1 1 auto;
+}

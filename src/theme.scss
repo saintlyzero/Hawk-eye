@@ -1,0 +1,17 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$athenas-owl-app-primary: mat-palette($mat-indigo);
+$athenas-owl-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$athenas-owl-app-theme:   mat-light-theme($athenas-owl-app-primary, $athenas-owl-app-accent);
+
+@include angular-material-theme($athenas-owl-app-theme);
+
+$dark-primary: mat-palette($mat-blue-grey);
+$dark-accent:  mat-palette($mat-amber, A200, A100, A400);
+$dark-warn:    mat-palette($mat-deep-orange);
+$dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+.unicorn-dark-theme {
+  @include angular-material-theme($dark-theme);
+}
