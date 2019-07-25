@@ -1,0 +1,14 @@
+keras
+tensorflow
+numpy
+opencv-python
+os
+pandas
+Pillow
+scikit-learn
+Flask
+Werkzeug
+json
+pprint
+bson
+Flask-PyMongo

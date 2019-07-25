@@ -1,0 +1,571 @@
+Started cron job at: 05:00:01 AM
+nothing to process
+Successfully finished cron job at: 05:00:03 AM
+Started cron job at: 05:03:01 AM
+nothing to process
+Successfully finished cron job at: 05:03:04 AM
+Started cron job at: 05:06:01 AM
+Started cron job at: 05:09:01 AM
+file's object id is:  5d2d5b22180f22125f0d5049
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2d5b22180f22125f0d5049
+Successfully finished cron job at: 05:11:28 AM
+Started cron job at: 05:12:01 AM
+file's object id is:  5d2d5c8e180f22125f0d504a
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2d5c8e180f22125f0d504a
+Successfully finished cron job at: 05:14:51 AM
+Started cron job at: 06:18:01 AM
+nothing to process
+Successfully finished cron job at: 06:18:03 AM
+Started cron job at: 06:21:01 AM
+nothing to process
+Successfully finished cron job at: 06:21:04 AM
+Started cron job at: 06:24:01 AM
+nothing to process
+Successfully finished cron job at: 06:24:03 AM
+Started cron job at: 06:27:01 AM
+file's object id is:  5d2d6ddb180f22125f0d504b
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2d6ddb180f22125f0d504b
+Successfully finished cron job at: 06:29:09 AM
+Started cron job at: 06:30:01 AM
+nothing to process
+Successfully finished cron job at: 06:30:03 AM
+Started cron job at: 06:33:01 AM
+nothing to process
+Successfully finished cron job at: 06:33:03 AM
+Started cron job at: 06:36:01 AM
+nothing to process
+Successfully finished cron job at: 06:36:04 AM
+Started cron job at: 06:39:01 AM
+nothing to process
+Successfully finished cron job at: 06:39:03 AM
+Started cron job at: 06:42:01 AM
+nothing to process
+Successfully finished cron job at: 06:42:04 AM
+Started cron job at: 06:45:01 AM
+nothing to process
+Successfully finished cron job at: 06:45:03 AM
+Started cron job at: 06:48:01 AM
+nothing to process
+Successfully finished cron job at: 06:48:04 AM
+Started cron job at: 06:51:01 AM
+nothing to process
+Successfully finished cron job at: 06:51:03 AM
+Started cron job at: 06:54:01 AM
+nothing to process
+Successfully finished cron job at: 06:54:04 AM
+Started cron job at: 06:57:01 AM
+nothing to process
+Successfully finished cron job at: 06:57:03 AM
+Started cron job at: 07:00:01 AM
+nothing to process
+Successfully finished cron job at: 07:00:04 AM
+Started cron job at: 07:03:01 AM
+nothing to process
+Successfully finished cron job at: 07:03:03 AM
+Started cron job at: 07:06:01 AM
+nothing to process
+Successfully finished cron job at: 07:06:04 AM
+Started cron job at: 07:09:01 AM
+nothing to process
+Successfully finished cron job at: 07:09:03 AM
+Started cron job at: 07:12:01 AM
+nothing to process
+Successfully finished cron job at: 07:12:03 AM
+Started cron job at: 07:15:01 AM
+nothing to process
+Successfully finished cron job at: 07:15:03 AM
+Started cron job at: 07:18:01 AM
+nothing to process
+Successfully finished cron job at: 07:18:04 AM
+Started cron job at: 07:21:01 AM
+nothing to process
+Successfully finished cron job at: 07:21:03 AM
+Started cron job at: 07:24:01 AM
+nothing to process
+Successfully finished cron job at: 07:24:03 AM
+Started cron job at: 07:27:01 AM
+nothing to process
+Successfully finished cron job at: 07:27:04 AM
+Started cron job at: 07:30:01 AM
+nothing to process
+Successfully finished cron job at: 07:30:03 AM
+Started cron job at: 07:33:01 AM
+nothing to process
+Successfully finished cron job at: 07:33:04 AM
+Started cron job at: 07:36:01 AM
+nothing to process
+Successfully finished cron job at: 07:36:03 AM
+file's object id is:  5d2d5b22180f22125f0d5049
+loading Locale model
+Successfully finished cron job at: 07:37:05 AM
+Started cron job at: 07:39:01 AM
+nothing to process
+Successfully finished cron job at: 07:39:04 AM
+Started cron job at: 07:42:01 AM
+nothing to process
+Successfully finished cron job at: 07:42:03 AM
+Started cron job at: 07:45:01 AM
+nothing to process
+Successfully finished cron job at: 07:45:04 AM
+Started cron job at: 07:48:01 AM
+nothing to process
+Successfully finished cron job at: 07:48:03 AM
+Started cron job at: 07:51:01 AM
+nothing to process
+Successfully finished cron job at: 07:51:04 AM
+Started cron job at: 07:54:01 AM
+nothing to process
+Successfully finished cron job at: 07:54:03 AM
+Started cron job at: 07:57:01 AM
+nothing to process
+Successfully finished cron job at: 07:57:04 AM
+Started cron job at: 08:00:01 AM
+nothing to process
+Successfully finished cron job at: 08:00:04 AM
+Started cron job at: 08:03:01 AM
+nothing to process
+Successfully finished cron job at: 08:03:03 AM
+Started cron job at: 08:06:01 AM
+nothing to process
+Successfully finished cron job at: 08:06:04 AM
+Started cron job at: 08:09:01 AM
+nothing to process
+Successfully finished cron job at: 08:09:03 AM
+Started cron job at: 08:12:01 AM
+nothing to process
+Successfully finished cron job at: 08:12:04 AM
+Started cron job at: 08:15:01 AM
+nothing to process
+Successfully finished cron job at: 08:15:03 AM
+Started cron job at: 08:18:01 AM
+nothing to process
+Successfully finished cron job at: 08:18:04 AM
+Started cron job at: 08:21:01 AM
+nothing to process
+Successfully finished cron job at: 08:21:03 AM
+Started cron job at: 08:24:01 AM
+nothing to process
+Successfully finished cron job at: 08:24:04 AM
+Started cron job at: 08:27:01 AM
+nothing to process
+Successfully finished cron job at: 08:27:04 AM
+Started cron job at: 08:30:01 AM
+nothing to process
+Successfully finished cron job at: 08:30:03 AM
+Started cron job at: 08:33:01 AM
+nothing to process
+Successfully finished cron job at: 08:33:04 AM
+Started cron job at: 08:36:01 AM
+nothing to process
+Successfully finished cron job at: 08:36:04 AM
+Started cron job at: 08:39:01 AM
+file's object id is:  5d2d8cca180f223d763703d6
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2d8cca180f223d763703d6
+Successfully finished cron job at: 08:41:11 AM
+Started cron job at: 08:42:01 AM
+nothing to process
+Successfully finished cron job at: 08:42:04 AM
+Started cron job at: 08:45:01 AM
+nothing to process
+Successfully finished cron job at: 08:45:03 AM
+Started cron job at: 08:48:01 AM
+nothing to process
+Successfully finished cron job at: 08:48:04 AM
+Started cron job at: 08:51:01 AM
+nothing to process
+Successfully finished cron job at: 08:51:04 AM
+Started cron job at: 08:54:01 AM
+nothing to process
+Successfully finished cron job at: 08:54:03 AM
+Started cron job at: 08:57:01 AM
+nothing to process
+Successfully finished cron job at: 08:57:04 AM
+Started cron job at: 09:00:01 AM
+nothing to process
+Successfully finished cron job at: 09:00:04 AM
+Started cron job at: 09:03:01 AM
+nothing to process
+Successfully finished cron job at: 09:03:03 AM
+Started cron job at: 09:06:01 AM
+nothing to process
+Successfully finished cron job at: 09:06:04 AM
+Started cron job at: 09:09:01 AM
+nothing to process
+Successfully finished cron job at: 09:09:03 AM
+Started cron job at: 09:12:01 AM
+nothing to process
+Successfully finished cron job at: 09:12:04 AM
+Started cron job at: 09:15:01 AM
+nothing to process
+Successfully finished cron job at: 09:15:04 AM
+Started cron job at: 09:18:01 AM
+nothing to process
+Successfully finished cron job at: 09:18:03 AM
+Started cron job at: 09:21:01 AM
+file's object id is:  5d2d969f180f2246083dde7b
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2d969f180f2246083dde7b
+Successfully finished cron job at: 09:23:14 AM
+Started cron job at: 09:24:01 AM
+nothing to process
+Successfully finished cron job at: 09:24:04 AM
+Started cron job at: 09:27:01 AM
+nothing to process
+Successfully finished cron job at: 09:27:04 AM
+Started cron job at: 10:00:01 AM
+nothing to process
+Successfully finished cron job at: 10:00:32 AM
+Started cron job at: 10:03:01 AM
+nothing to process
+Successfully finished cron job at: 10:03:03 AM
+Started cron job at: 10:06:01 AM
+nothing to process
+Successfully finished cron job at: 10:06:03 AM
+Started cron job at: 10:09:01 AM
+nothing to process
+Successfully finished cron job at: 10:09:03 AM
+Started cron job at: 10:12:01 AM
+Started cron job at: 10:15:01 AM
+file's object id is:  5d2da244180f220c56eecfb4
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2da244180f220c56eecfb4
+Successfully finished cron job at: 10:17:02 AM
+Successfully finished cron job at: 12:30:03 PM
+Started cron job at: 12:33:01 PM
+file's object id is:  5d2dc395180f2232d678da2d
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2dc395180f2232d678da2d
+Successfully finished cron job at: 12:35:32 PM
+Started cron job at: 12:36:01 PM
+file's object id is:  5d2dc3eb180f2232d678da2e
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2dc3eb180f2232d678da2e
+Successfully finished cron job at: 12:37:51 PM
+Started cron job at: 12:39:01 PM
+nothing to process
+Successfully finished cron job at: 12:39:03 PM
+Started cron job at: 12:42:01 PM
+nothing to process
+Successfully finished cron job at: 12:42:03 PM
+Started cron job at: 12:51:02 PM
+nothing to process
+Successfully finished cron job at: 12:51:25 PM
+Started cron job at: 12:54:01 PM
+nothing to process
+Successfully finished cron job at: 12:54:03 PM
+Started cron job at: 12:57:01 PM
+nothing to process
+Successfully finished cron job at: 12:57:04 PM
+Started cron job at: 01:00:01 PM
+nothing to process
+Successfully finished cron job at: 01:00:03 PM
+Started cron job at: 01:03:01 PM
+nothing to process
+Successfully finished cron job at: 01:03:04 PM
+Started cron job at: 01:06:01 PM
+nothing to process
+Successfully finished cron job at: 01:06:03 PM
+Started cron job at: 01:09:01 PM
+nothing to process
+Successfully finished cron job at: 01:09:03 PM
+Started cron job at: 01:12:01 PM
+nothing to process
+Successfully finished cron job at: 01:12:03 PM
+Started cron job at: 01:15:01 PM
+nothing to process
+Successfully finished cron job at: 01:15:03 PM
+Started cron job at: 01:18:01 PM
+nothing to process
+Successfully finished cron job at: 01:18:03 PM
+Started cron job at: 01:21:01 PM
+nothing to process
+Successfully finished cron job at: 01:21:03 PM
+Started cron job at: 01:24:01 PM
+nothing to process
+Successfully finished cron job at: 01:24:04 PM
+Started cron job at: 01:27:01 PM
+nothing to process
+Successfully finished cron job at: 01:27:03 PM
+Started cron job at: 01:30:01 PM
+nothing to process
+Successfully finished cron job at: 01:30:04 PM
+Started cron job at: 01:33:01 PM
+nothing to process
+Successfully finished cron job at: 01:33:03 PM
+Started cron job at: 01:36:01 PM
+nothing to process
+Successfully finished cron job at: 01:36:04 PM
+Started cron job at: 01:39:01 PM
+file's object id is:  5d2dd33b180f227329bc6195
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2dd33b180f227329bc6195
+Successfully finished cron job at: 01:41:46 PM
+Started cron job at: 01:42:01 PM
+nothing to process
+Successfully finished cron job at: 01:42:03 PM
+Started cron job at: 01:45:01 PM
+nothing to process
+Successfully finished cron job at: 01:45:03 PM
+Started cron job at: 01:48:01 PM
+nothing to process
+Successfully finished cron job at: 01:48:04 PM
+Started cron job at: 01:51:01 PM
+nothing to process
+Successfully finished cron job at: 01:51:03 PM
+Started cron job at: 01:54:01 PM
+nothing to process
+Successfully finished cron job at: 01:54:04 PM
+Started cron job at: 01:57:01 PM
+file's object id is:  5d2dd703180f227329bc6196
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2dd703180f227329bc6196
+Successfully finished cron job at: 01:59:11 PM
+Started cron job at: 02:00:01 PM
+nothing to process
+Successfully finished cron job at: 02:00:03 PM
+Started cron job at: 02:03:01 PM
+nothing to process
+Successfully finished cron job at: 02:03:03 PM
+Started cron job at: 02:06:01 PM
+nothing to process
+Successfully finished cron job at: 02:06:04 PM
+Started cron job at: 02:09:01 PM
+nothing to process
+Successfully finished cron job at: 02:09:03 PM
+Started cron job at: 02:12:01 PM
+nothing to process
+Successfully finished cron job at: 02:12:04 PM
+Started cron job at: 02:15:01 PM
+Started cron job at: 02:18:01 PM
+nothing to process
+Successfully finished cron job at: 02:18:04 PM
+file's object id is:  5d2ddbc8180f227329bc6197
+loading Locale model
+Locale model loaded
+result is produced for locale model
+loading Angle model
+Angle model loaded
+result is produced for angle model
+making predictions Apparel model
+<class 'str'>
+file is processed having file_id 5d2ddbc8180f227329bc6197
+Successfully finished cron job at: 02:19:05 PM
+Started cron job at: 02:21:01 PM
+nothing to process
+Successfully finished cron job at: 02:21:04 PM
+Started cron job at: 02:24:01 PM
+nothing to process
+Successfully finished cron job at: 02:24:03 PM
+Started cron job at: 02:27:01 PM
+nothing to process
+Successfully finished cron job at: 02:27:04 PM
+                                                                                                   Started cron job at: 06:21:01 AM
+nothing to process
+Successfully finished cron job at: 06:21:29 AM
+Started cron job at: 06:24:01 AM
+nothing to process
+Successfully finished cron job at: 06:24:03 AM
+Started cron job at: 06:27:01 AM
+nothing to process
+Successfully finished cron job at: 06:27:03 AM
+Started cron job at: 06:30:01 AM
+nothing to process
+Successfully finished cron job at: 06:30:03 AM
+Started cron job at: 06:33:01 AM
+nothing to process
+Successfully finished cron job at: 06:33:04 AM
+Started cron job at: 06:36:01 AM
+nothing to process
+Successfully finished cron job at: 06:36:03 AM
+Started cron job at: 06:39:01 AM
+nothing to process
+Successfully finished cron job at: 06:39:03 AM
+Started cron job at: 06:40:01 AM
+nothing to process
+Successfully finished cron job at: 06:40:04 AM
+Started cron job at: 06:41:01 AM
+nothing to process
+Successfully finished cron job at: 06:41:03 AM
+Started cron job at: 06:42:01 AM
+nothing to process
+Successfully finished cron job at: 06:42:03 AM
+Started cron job at: 06:43:01 AM
+nothing to process
+Successfully finished cron job at: 06:43:04 AM
+Started cron job at: 06:44:01 AM
+nothing to process
+Successfully finished cron job at: 06:44:03 AM
+Started cron job at: 06:45:01 AM
+nothing to process
+Successfully finished cron job at: 06:45:03 AM
+Started cron job at: 06:46:01 AM
+nothing to process
+Successfully finished cron job at: 06:46:04 AM
+Started cron job at: 06:47:01 AM
+nothing to process
+Successfully finished cron job at: 06:47:03 AM
+Started cron job at: 06:48:01 AM
+nothing to process
+Successfully finished cron job at: 06:48:03 AM
+Started cron job at: 06:49:01 AM
+nothing to process
+Successfully finished cron job at: 06:49:04 AM
+Started cron job at: 06:50:01 AM
+nothing to process
+Successfully finished cron job at: 06:50:03 AM
+Started cron job at: 06:51:01 AM
+nothing to process
+Successfully finished cron job at: 06:51:03 AM
+Started cron job at: 06:52:01 AM
+nothing to process
+Successfully finished cron job at: 06:52:03 AM
+Started cron job at: 06:53:01 AM
+nothing to process
+Successfully finished cron job at: 06:53:04 AM
+Started cron job at: 06:54:01 AM
+nothing to process
+Successfully finished cron job at: 06:54:03 AM
+Started cron job at: 06:55:01 AM
+nothing to process
+Successfully finished cron job at: 06:55:03 AM
+Started cron job at: 06:56:01 AM
+nothing to process
+Successfully finished cron job at: 06:56:04 AM
+Started cron job at: 06:57:01 AM
+nothing to process
+Successfully finished cron job at: 06:57:03 AM
+Started cron job at: 06:58:01 AM
+nothing to process
+Successfully finished cron job at: 06:58:03 AM
+Started cron job at: 06:59:01 AM
+nothing to process
+Successfully finished cron job at: 06:59:04 AM
+Started cron job at: 07:00:01 AM
+nothing to process
+Successfully finished cron job at: 07:00:03 AM
+Started cron job at: 07:01:01 AM
+nothing to process
+Successfully finished cron job at: 07:01:03 AM
+Started cron job at: 07:02:01 AM
+nothing to process
+Successfully finished cron job at: 07:02:03 AM
+Started cron job at: 07:03:01 AM
+nothing to process
+Successfully finished cron job at: 07:03:04 AM
+Started cron job at: 07:04:01 AM
+nothing to process
+Successfully finished cron job at: 07:04:03 AM
+Started cron job at: 07:05:01 AM
+nothing to process
+Successfully finished cron job at: 07:05:03 AM
+Started cron job at: 07:06:01 AM
+nothing to process
+Successfully finished cron job at: 07:06:03 AM
+Started cron job at: 07:07:01 AM
+nothing to process
+Successfully finished cron job at: 07:07:03 AM
+Started cron job at: 07:08:01 AM
+nothing to process
+Successfully finished cron job at: 07:08:03 AM
+Started cron job at: 07:09:01 AM
+nothing to process
+Successfully finished cron job at: 07:09:04 AM
+Started cron job at: 07:10:01 AM
+nothing to process
+Successfully finished cron job at: 07:10:03 AM
+Started cron job at: 07:11:01 AM
+nothing to process
+Successfully finished cron job at: 07:11:03 AM
+Started cron job at: 07:12:01 AM
+nothing to process
+Successfully finished cron job at: 07:12:03 AM
+Started cron job at: 07:13:01 AM
+nothing to process
+Successfully finished cron job at: 07:13:03 AM
+Started cron job at: 07:14:01 AM
+nothing to process
+Successfully finished cron job at: 07:14:03 AM
+Started cron job at: 07:15:01 AM
+nothing to process
+Successfully finished cron job at: 07:15:04 AM
+Started cron job at: 07:16:01 AM
+nothing to process
+Successfully finished cron job at: 07:16:03 AM
+Started cron job at: 07:17:01 AM
+nothing to process
+Successfully finished cron job at: 07:17:03 AM
+Started cron job at: 07:18:01 AM
