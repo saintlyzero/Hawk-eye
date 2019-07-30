@@ -12,3 +12,4 @@ json
 pprint
 bson
 Flask-PyMongo
+keras-retinanet
