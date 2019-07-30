@@ -13,7 +13,11 @@ export class AuthService {
     public afAuth: AngularFireAuth, 
     private router: Router,
     public ngZone: NgZone) {
-    this.afAuth.authState.subscribe(data => this.authState = data)
+    this.afAuth.authState.subscribe(data => {
+      this.authState = data
+      if(this.authState)
+      localStorage.setItem('userId', this.authState.uid)
+    })
   }
   get authenticated(): boolean {
     return this.authState !== null
@@ -21,13 +25,17 @@ export class AuthService {
   get currentUserId(): string {
     return this.authenticated ? this.authState.uid : null
   }
-  //  TODO: Get username function
   login() {
     let success: boolean = false;
     this.afAuth.auth.signInWithPopup(
       new firebase.auth.GoogleAuthProvider()
     ).then(res => {
+      console.log();
+      
+      
       this.ngZone.run(() => {
+      // console.log('After login ',this.currentUserId);
+      // this.saveUserIdInLocalStorage(this.currentUserId)
         this.router.navigate(['home']);
       });
     }
@@ -38,11 +46,13 @@ export class AuthService {
   }
   logout() {
     this.afAuth.auth.signOut();
+    localStorage.clear();
     this.router.navigateByUrl('/login');
   }
-
-  // TODO: Remove this
-  show() {
-    console.log('Auth Login Service Invoked');
+  saveUserIdInLocalStorage(uid){
+    
+    console.log('uid in Save method : ',uid);
+    localStorage.setItem('user_id', uid);
+    console.log('userid retrived from loaclstaorage: ',localStorage.getItem('user_id'));
   }
 }
