@@ -29,13 +29,32 @@ export class HomeComponent implements OnInit {
     this.spinnerStatus = true;
     this.fileStatus = ''
     this.isVideoSelected = true;
-    this.userID = this.auth.currentUserId;
-    this.httpHandler.getUserVideos(this.userID)
-    .subscribe(resp =>{this.videos = resp; console.log(resp);
-    } );
+    console.log('In home comp constructor');
+    
+    // this.userID = this.auth.currentUserId;
+    if( this.auth == undefined){
+      this.userID = localStorage.getItem('userId')
+    }
+    else if(this.auth !=null){
+      if(this.auth.currentUserId != null){
+        this.userID = this.auth.currentUserId
+      }
+    }
+    else{
+     this.userID = null
+     console.log('In user = null');
+     
+    } 
   }
 
   ngOnInit() {
+    console.log('in inti home cmp');
+    
+    this.userID = localStorage.getItem('userId')
+    this.httpHandler.getUserVideos(this.userID)
+    .subscribe(resp =>{this.videos = resp; console.log(resp);
+    } );
+    
     this.uploadForm = this.formBuilder.group({
       profile: ['']
     });  
@@ -86,7 +105,6 @@ export class HomeComponent implements OnInit {
     videoNode.src = fileURL
   }
   playVideoByURL(cVideoURL){
-    console.log('clicked: ',cVideoURL);
     const videoNode = document.querySelector('video')
     videoNode.src = cVideoURL;
   }

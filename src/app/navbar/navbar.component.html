@@ -1,6 +1,7 @@
 <mat-toolbar class="navbar-container">
   <mat-toolbar-row>
-    <img src="assets/ao_light.svg" routerLink="/home">
+    <img src="assets/eagle.svg" routerLink="/home">
+    <b style="font-size: 30px; text-shadow: 0px 0px 4px #FFCB05;">Hawk-Eye</b>
     <span class="spacer"></span>
     <div *ngIf="auth.afAuth.authState | async as user">
       <span>Hi, {{user.displayName}}</span>

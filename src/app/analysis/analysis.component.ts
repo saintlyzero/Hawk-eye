@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-analysis',
   templateUrl: './analysis.component.html',
-  styleUrls: ['./analysis.component.scss']
+  styleUrls: ['./analysis.component.scss'],
 })
 export class AnalysisComponent implements OnInit {
   api: VgAPI;
@@ -37,10 +37,11 @@ export class AnalysisComponent implements OnInit {
       () => {
         let time = Math.floor(this.api.currentTime);
         if (time - this.previousTime >= 1) {
+          
           this.emptyAllArrays();
-          this.locale = getFrameClasses(this.previousTime,'locale')
-          this.cad = getFrameClasses(this.previousTime,'cad')
-          this.aparallel = getFrameClasses(this.previousTime,'aparallel')
+          this.locale = getFrameClasses(this.previousTime+1,'locale')
+          this.cad = getFrameClasses(this.previousTime+1,'cad')
+          this.aparallel = getFrameClasses(this.previousTime+1,'aparallel')
           this.previousTime = time;
         }
       }
@@ -52,9 +53,9 @@ export class AnalysisComponent implements OnInit {
         this.previousTime = time - 1;
         if (time - this.previousTime >= 1) {
           this.emptyAllArrays();
-          this.locale = getFrameClasses(this.previousTime,'locale')
-          this.cad = getFrameClasses(this.previousTime,'cad')
-          this.aparallel = getFrameClasses(this.previousTime,'aparallel')
+          this.locale = getFrameClasses(this.previousTime+1,'locale')
+          this.cad = getFrameClasses(this.previousTime+1,'cad')
+          this.aparallel = getFrameClasses(this.previousTime+1,'aparallel')
         }
       }
     );
