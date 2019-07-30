@@ -5,15 +5,15 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyAb8lCpnQv-hnZGQH_7LpOWIFYI_3-kkFE",
-    authDomain: "athenas-owl-mock.firebaseapp.com",
-    databaseURL: "https://athenas-owl-mock.firebaseio.com",
-    projectId: "athenas-owl-mock",
-    storageBucket: "athenas-owl-mock.appspot.com",
-    messagingSenderId: "614548238030",
-    appId: "1:614548238030:web:c3e8fa2d5f79ed7b"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   },
-  IP: "35.185.57.54:8081"
+  IP: ""
 };
 
 /*
